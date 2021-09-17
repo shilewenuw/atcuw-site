@@ -1,0 +1,52 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title ATCUW - Workshops
+
+        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+
+        include includes/css
+
+    body
+
+        include includes/header
+
+        include includes/navbar
+
+        section.page-section.about-heading
+            .container
+                .about-heading-content
+                    .row
+                        .col-xl-9.col-lg-10.mx-auto
+                            .bg-faded.rounded.p-5
+                                h2.section-heading.mb-4
+                                    span.section-heading-lower Workshops/Meetings
+                                p
+                                    | This will be updated once Au21 starts.
+
+        section.page-section.mt-1.mb-4
+            .container
+                .about-heading-content
+                    .row
+                        .col-xl-9.col-lg-10.mx-auto
+                            .bg-two.rounded.p-5
+                                h2.section-heading.mb-4
+                                    span.section-heading-lower Past Workshops
+                                p
+                                    | Below contains a playlist of past workshops. Note that some topics are repeated, so I'd recommend watching 
+                                    | later videos on a given topic. To see all recorded meetings, see the #[a(href="https://www.youtube.com/channel/UCM63WzsQL_M-Asd-pNjPE_w") ATC channel]
+
+
+        .d-flex.justify-content-center.mb-3
+            iframe(src='https://www.youtube.com/embed/videoseries?list=PLAdbR4PyO9g-1Tgsqj6yrbqKibFHbisus' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='')
+            
+        include includes/footer
+
+        include includes/scripts

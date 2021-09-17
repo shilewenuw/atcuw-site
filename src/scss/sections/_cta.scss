@@ -1,0 +1,22 @@
+.cta {
+    padding: 1rem;
+    background-color: $primary;
+
+    .cta-inner {
+        position: relative;
+        padding: 1rem;
+        margin: 0.5rem;
+
+        &:before {
+            border-radius: 0.5rem;
+            content: '';
+            position: absolute;
+            top: -0.5rem;
+            bottom: -0.5rem;
+            left: -0.5rem;
+            right: -0.5rem;
+            border: 0.25rem solid fade-out($white, 0.15);
+            z-index: -1;
+        }
+    }
+}
